@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.tarjeta{
+    position: relative;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15%;
+    background-color: mediumaquamarine;
+}
+
+.avatar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+button{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
